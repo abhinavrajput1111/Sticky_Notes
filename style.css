@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  /* border: 2px solid tomato; */
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 50%;
+  /* border: 2px solid violet; */
+  padding: 20px;
+  background-color: #d1dce7;
+  padding-top: 3rem;
+}
+
+.heading {
+  text-align: center;
+  color: navy;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.textarea {
+  padding: 20px;
+  margin: 20px;
+  width: 80%;
+  margin-left: 3.2rem;
+  box-shadow: 3px 3px 3px 3px rgba(8, 58, 151, 0.2);
+}
+
+.right {
+  width: 50%;
+  /* border: 2px solid maroon; */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: flex-start;
+  /* flex-grow: 0; */
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.input-clr {
+  margin: 20px;
+}
+
+#colors {
+  margin-left: 4rem;
+  margin-top: 0px;
+}
+
+.button {
+  margin-left: 33%;
+  color: white;
+  font-size: 1rem;
+  padding: 1.3rem 2rem;
+  background: linear-gradient(to right, tomato, red);
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 2px 2px 2px 2px rgba(8, 58, 151, 0.2);
+}
+
+.parentNote-styling {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+}
+
+.stickyNote-style {
+  min-width: 170px;
+  /* max-width: 250px; */
+  min-height: 100px;
+  max-height: 150px;
+  /* background-color: aliceblue; */
+  color: black;
+  margin: 15px;
+  padding: 5px;
+}
+
+.top-styling {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.bottom-styling {
+  padding: 10px;
+  text-wrap: wrap;
+  /* margin-top: 15px; */
+}
+
+.cross-styling {
+  cursor: pointer;
+  padding: 2px 4px;
+  background-color: rgb(245, 47, 47);
+  border-radius: 20px;
+}
+
+.cross-styling:hover {
+  background-color: rgb(218, 32, 32);
+}
+
+.edit {
+  cursor: pointer;
+}

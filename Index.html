@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="container" class="container">
+        <div id="left" class="left">
+          <h1 class="heading">Sticky Notes</h1>
+          <div id="">
+            <textarea
+              name=""
+              id="textarea"
+              class="textarea"
+              cols="30"
+              rows="12"
+              placeholder="Enter Your Note Here"
+            ></textarea>
+          </div>
+          <br />
+
+          <div id="colors">
+            <label for="text">Background Color</label>
+            <input
+              type="color"
+              name=""
+              id="bgColor"
+              class="bgColor input-clr"
+              value="#f1f1f1"
+            />
+            <label for="text">Text Color</label>
+            <input
+              type="color"
+              name=""
+              id="textColor"
+              class="textColor input-clr"
+              value="#000000"
+            />
+          </div>
+          <button id="button" class="button">Create Note</button>
+        </div>
+        <div id="right" class="right">
+          <!-- <div id="heading-right"><h1 class="heading">Your Notes</h1></div> -->
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
